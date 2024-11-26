@@ -1,0 +1,74 @@
+body {
+  font-family: 'Noto Serif KR', serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.menu-container {
+  width: 600px;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.menu-container h1,
+.menu-container h2,
+.menu-container h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #00704a; /* 메인 섹션 강조 색 */
+  text-transform: uppercase;
+  margin: 20px 0 10px;
+  border-bottom: 1px solid #ddd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.item-name {
+  font-weight: 500;
+}
+
+.item-description {
+  font-size: 12px;
+  color: #888;
+}
+
+.logo {
+  margin: 0 auto 30px;
+  width: 75px;
+  height: 75px;
+  background: url('yowu.png') no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+}
